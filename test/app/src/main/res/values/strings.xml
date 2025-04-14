@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="name">Felhasználó név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="username">Felhasznaló Név</string>
+    <string name="email_adress">E-mail cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="phoneNumber">Telefonszám</string>
+    <string name="delivery_address">Szállítási cím</string>
+    <string name="buyer">Vásárló</string>
+    <string name="seller">Eladó</string>
+    <string name="product_description">Termék leírás</string>
+    <string name="login_guest">Bejelentkezés vendégként</string>
+    <string name="login_google">Bejelentkezés Google fiókkal</string>
+    <string name="title">Bútor webshop</string>
+    <string name="logout">Kijelenkezés</string>
+    <string-array name="phone_modes">
+        <item>Otthoni</item>
+        <item>Munkahelyi</item>
+        <item>Mobil</item>
+        <item>Egyéb</item>
+    </string-array>
+</resources>
