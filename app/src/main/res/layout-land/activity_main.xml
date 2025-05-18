@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    android:backgroundTint="#8BC34A"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/butorwebshopTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-medium"
+        android:outlineProvider="none"
+        android:singleLine="false"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/userName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="405dp"
+        android:layout_height="82dp"
+        android:layout_below="@+id/butorwebshopTextView"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/email_adress"
+        android:inputType="textEmailAddress"
+        android:outlineProvider="paddedBounds"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FF655E5E"
+        app:layout_constraintBottom_toTopOf="@+id/jelszoID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797" />
+
+    <EditText
+        android:id="@+id/jelszoID"
+        android:layout_width="405dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:outlineProvider="paddedBounds"
+        android:textColor="@color/white"
+        android:textColorHint="#FF655E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397" />
+
+    <Button
+        android:id="@+id/loginBTN"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#9C27B0"
+        android:backgroundTintMode="screen"
+        android:onClick="login"
+        android:text="@string/login"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#03A9F4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jelszoID"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <Button
+        android:id="@+id/loginGuest"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#9C27B0"
+        android:onClick="loginAsGuest"
+        android:text="@string/login_guest"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/loginBTN"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jelszoID" />
+
+    <Button
+        android:id="@+id/registerBTN"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#9C27B0"
+        android:onClick="register"
+        android:text="@string/register"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/loginBTN"
+        app:layout_constraintTop_toBottomOf="@+id/jelszoID" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Termék neve" />
+
+    <EditText
+        android:id="@+id/item_desc"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Leírás" />
+
+    <EditText
+        android:id="@+id/item_price"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Ár" />
+
+    <EditText
+        android:id="@+id/item_image_url"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Kép fájl neve (pl. chair)" />
+
+    <ImageView
+        android:id="@+id/itemImagePreview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:contentDescription="Kiválasztott kép előnézete"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/button_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kép készítése kamerával" />
+
+    <Button
+        android:id="@+id/button_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kép kiválasztása galériából" />
+
+    <Button
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:onClick="addItem"
+        android:text="@string/add_button" />
+</LinearLayout>

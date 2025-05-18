@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="name">Felhasználó név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="username">Felhasznaló Név</string>
+    <string name="email_adress">E-mail cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="phoneNumber">Telefonszám</string>
+    <string name="delivery_address">Szállítási cím</string>
+    <string name="buyer">Vásárló</string>
+    <string name="seller">Eladó</string>
+    <string name="product_description">Termék leírás</string>
+    <string name="login_guest">Bejelentkezés vendégként</string>
+    <string name="login_google">Bejelentkezés Google fiókkal</string>
+    <string name="title">Bútor webshop</string>
+    <string name="logout">Kijelenkezés</string>
+    <string name="termek_leiras">Termék Leírás</string>
+    <string name="item_placeholder">valami valaki\n</string>
+    <string name="item_info_placeholder">valaasdadad</string>
+    <string name="korasba">Kosárba</string>
+    <string name="settings">Beállítások</string>
+    <string name="delete">Törlés</string>
+    <string name="addItem">Új termék hozzáadása</string>
+    <string name="add_button">Hozzáadás</string>
+    <string name="Profile">Profil</string>
+    <string-array name="phone_modes">
+        <item>Otthoni</item>
+        <item>Munkahelyi</item>
+        <item>Mobil</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string-array name="shopping_item_names">
+        <item>Hálószóbai komód</item>
+        <item>Franciaágy világos szövetborítással</item>
+        <item>Bár Szekrény</item>
+        <item>Étkező asztal</item>
+        <item>Kanapé</item>
+        <item>Kerti bútor szett</item>
+        <item>Classic komód</item>
+        <item>LED-es franciágy</item>
+        <item>Napozóágy</item>
+        <item>Szekrénysor</item>
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>Méret: szélesség: 100cm, hosszúság: 30cm, magasság: 70cm</item>
+        <item>Méret: szélesség: 160cm, hosszúság: 200cm, magasság: 45cm</item>
+        <item>Méret: szélesség: 60cm, hosszúság: 50cm, magasság: 190cm</item>
+        <item>Méret: szélesség: 100cm, hosszúság: 200cm, magasság: 55cm</item>
+        <item>Méret: szélesség: 300cm, hosszúság: 200cm, magasság: 80cm</item>
+        <item>Asztal és 4db szék</item>
+        <item>mindenre is jó</item>
+        <item>Többszínben világítani képes franciaágy</item>
+        <item>Kerti napozó ágy</item>
+        <item>Szekrénysor hálószóbába vagy nappaliba</item>
+    </string-array>
+
+
+    <array name="shopping_item_images">
+        <item>@drawable/komod_mobilalk</item>
+        <item>@drawable/franciaagy_2</item>
+        <item>@drawable/szekreny_mobilalk</item>
+        <item>@drawable/asztal2</item>
+        <item>@drawable/kanape</item>
+        <item>@drawable/kertibutor</item>
+        <item>@drawable/komod_2</item>
+        <item>@drawable/led_franciaagy</item>
+        <item>@drawable/napozoagy</item>
+        <item>@drawable/szekrenysor</item>
+    </array>
+
+    <array name="shopping_item_price">
+        <item>100.000 Ft</item>
+        <item>90.000 Ft</item>
+        <item>80.000 Ft</item>
+        <item>70.000 Ft</item>
+        <item>60.000 Ft</item>
+        <item>50.000 Ft</item>
+        <item>40.0000 Ft</item>
+        <item>30.000 Ft</item>
+        <item>150.000 Ft</item>
+        <item>125.000 Ft</item>
+    </array>
+
+</resources>
