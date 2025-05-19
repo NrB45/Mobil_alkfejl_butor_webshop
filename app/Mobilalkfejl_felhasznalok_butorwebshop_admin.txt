@@ -1,0 +1,9 @@
+userek: 
+
+	név: Kis Pista
+	e-mail: pista@gmail.com
+	jelszó: pista123
+
+	név: Admin
+	e-mail: admin@butorbolt.hu
+	jelszó: admin123
